@@ -1,0 +1,261 @@
+body {
+    background-image: url("./imagenes/img8.jpg");
+}
+
+.titulo {
+    position: absolute;
+    margin-top: -155px;
+    margin-left: 250px;
+}
+
+li{
+    
+}
+
+.imgHead {
+    display: inline-block;
+}
+
+.iconos {
+    display: inline-block;
+    margin-left: 850px;
+}
+
+ul {
+    background-color: antiquewhite;
+    padding: 2px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.li1 {
+    display: inline-block;
+    margin-left: 150px;
+    padding: 10px;
+}
+
+.li1:hover {
+    background-color: rgb(204, 204, 204);
+}
+
+.li2:hover {
+    background-color: rgb(204, 204, 204);
+}
+
+.li3:hover {
+    background-color: rgb(204, 204, 204);
+}
+
+.li4:hover {
+    background-color: rgb(204, 204, 204);
+}
+
+.li5:hover {
+    background-color: rgb(204, 204, 204);
+}
+
+
+.li2 {
+    display: inline-block;
+    margin-left: 150px;
+    padding: 10px;
+}
+
+.li3 {
+    display: inline-block;
+    margin-left: 150px;
+    padding: 10px;
+}
+
+.li4 {
+    display: inline-block;
+    margin-left: 150px;
+    padding: 10px;
+}
+
+.li5 {
+    display: inline-block;
+    margin-left: 150px;
+    padding: 10px;
+}
+
+footer {
+    background-color: antiquewhite;
+    padding: 2px;
+}
+
+.imgBody {
+    width: 250px;
+    height: 500px;  
+    object-fit: cover;  
+}
+
+.imgBody {
+    width: 250px;
+    height: 500px;  
+    object-fit: cover;  
+}
+
+.imgBody:hover {
+    width: 50%;
+    transition: 3000ms;
+    position: absolute;
+}
+
+.formContainer {
+    text-align: center;
+    margin-bottom: 15px;
+    border: 2px solid black;
+    display: inline-block;
+    padding: 10px;
+    margin-left: 0%;
+}
+
+.imgForm{
+    margin-left: 0%;
+}
+
+.form {
+    border-left: 2px solid black;
+    display: inline-block;
+    padding: 20px;
+}
+
+.form2 {
+    border-top: 2px solid black;
+}
+
+.imgcont{
+    padding: 2%;
+    border: 2px solid black;
+    border-top: none;
+    background-color: rgb(204, 204, 204);
+}
+
+.img1{
+display: inline-block;
+margin-left: 10%;
+}
+
+
+.img2{
+    display: inline-block;
+}
+
+
+.img3{
+    display: inline-block;
+}
+
+.curso{
+    text-align: center;
+    border: 2px solid black;
+    background-color: antiquewhite;
+}
+
+.sobremi{
+    text-align: center;
+    border: 2px solid black;
+    background-color: antiquewhite;
+}
+
+.fondo{
+    background-color: rgb(204, 204, 204);
+}
+
+.parrafo{
+    font-size: 23px;
+
+}
+
+.imgSobreMi {
+float: left;
+margin: 10px;
+margin-right: 15px;
+}
+
+.seminario {
+    text-align: center;
+    border: 2px solid black;
+    background-color: antiquewhite;
+}
+
+.seminarioImg1:hover {
+    width: 100%;
+}
+
+.headerdiv {
+display: grid;
+grid-template-rows: 100%;
+}
+
+.fotos {
+    display: grid;
+    grid-template-rows: 100%;
+}
+
+.footergrid{
+    display: grid;
+    grid-template-rows: 100%;
+}
+
+.formulariogrid{
+    display: grid;
+    grid-template-rows: 100%;
+}
+
+@media screen and (max-width: 480px) {
+    .headerdiv nav{
+      width: 1920px;
+    }
+    .headerdiv h1{
+        width: 1920px;
+    }
+    .fotos img{
+      width: 1920px;
+    }
+    .footergrid footer {
+        width: 1920px;
+    }
+    .iconos{
+        width:300px;
+    }
+  }
+
+  @media screen and (max-width: 1000px) {
+    .headerdiv nav{
+      width: 1920px;
+    }
+    .headerdiv h1{
+        width: 1920px;
+    }
+    .fotos img{
+      width: 1920px;
+    }
+    .footergrid footer {
+        width: 1920px;
+    }
+    .iconos{
+        width:250px;
+    }
+  }
+
+  @media screen and (max-width: 1366px) {
+    .headerdiv nav{
+      width: 1920px;
+    }
+    .headerdiv h1{
+        width: 1920px;
+    }
+    .fotos img{
+      width: 1920px;
+    }
+    .footergrid footer {
+        width: 1920px;
+    }
+    .iconos{
+        width:300px;
+    }
+  }

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACTO</title>
+    <link href="./css/style.css" rel=StyleSheet type="text/css">
+</head>
+
+<body>
+    <div class=headerdiv>
+        <header>
+            <div class="imgHead">
+                <img src="imagenes/index/images.png" width="230px" alt="">
+            </div>
+            
+            <div class="titulo">
+                <h1>CELIA KRAVASEK ASESORA DE FENGSHUI</h1>
+            </div>
+            <div class="iconos">
+                <a href="http://www.facebook.com">
+                <img src="imagenes/icons/facebook-brands.svg" width="40" alt="">
+            </a>
+                <a href="http://instagram.com"><img src="imagenes/icons/instagram-square-brands.svg" width="35" alt="">
+                </a>
+                <a href="http://web.telegram.org">
+                <img src="imagenes/icons/telegram-brands.svg" width="39"alt="">
+            </a>
+            </div>
+        
+        <nav>
+            <ul>
+                <li class="li1"><a href="index.html">HOME</a></li>
+                <li class="li2"><a href="SEMINARIOS.HTML">SEMINARIOS</a></li>
+                <li class="li3"><a href="CURSOS.HTML">CURSO</a></li>
+                <li class="li4"><a href="SOBREMI.HTML">SOBRE MI</a></li>
+                <li class="li5"><a href="CONTACTO.HTML">CONTACTO</a></li>
+            </ul>
+        </nav>
+    
+    </header>
+    </div>
+
+<div class=formulariogrid>
+    <div class="formContainer">
+        
+        <img class="imgForm" src="imagenes/contacto/mensaje.png" width="280px" height="300"  >
+        <div class="form">
+        <h2>FORMULARIO DE CONTACTO</h2>
+        <p>Enviá tu consulta. <br>
+            Nos comunicaremos con vos a la brevedad.<br>
+            Gracias.</p>
+            <div class="form2">
+        <form action="servidor.php" method="post">
+            <h3>Curso/Seminario</h3>
+            <select name="curso" id="curso">
+                <option value="curso1">CURSO ANUAL DE FENG SHUI</option>
+                <option value="curso2">CURSO DE RADIOESTECIA Y GEOBIOLOGIA</option>
+                <option value="curso3">CURSO - EL USO DE LOS INSTRUMENTOS DEL FENGSHUI</option>
+                <option value="seminario1">SEMINARIO - LAS 24 MONTAÑAS</option>
+                <option value="seminario2">SEMINARIO - TABLA DE FENGSHUI</option>
+                <option value="seminario3">SEMINARIO - HOROSCOPO MING SHU</option>
+            </select><br>
+            <label for="">Nombre</label>
+            <input type="text" name="Nombre" placeholder="Introduce tu nombre" required>
+            <br>
+            <label for="">Apellido</label>
+            <input type="text" name="Apellido" placeholder="Introduce tu Apellido" required>
+            <br>
+            <label for="">Mail</label>
+            <input type="email" name="Mail" placeholder="Introduce tu Mail" required>
+            <br>
+            <label for="">Telefono</label>
+            <input type="tel" name="Telefono" placeholder="Introduce tu Telefono" required>
+            <br>
+            <input type="submit" value="Enviar"></input> <input type="reset" value="Limpiar formulario"></input>
+
+        </form>
+    </div>
+    </div>
+    </div>
+</div>
+    
+    <div class=footergrid>
+    <footer>
+        <p>©2021 Rodrigo Crescimone sitio Web</p>
+    </footer>
+</div>
+</body>
+
+</html>
